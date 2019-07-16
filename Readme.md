@@ -25,3 +25,7 @@ acc=np.mean(DSTree.predict(feature_test)==label_test)
 print(acc)
 ```
 最后输出acc的值，就是这个算法的准确率了。
+
+在这里我使用了一个batch文件（见目录里的unlimited-run.bat）来让它不间断地运行，得出的结果如下（因为每次随机的结果都不同，所以算出的结果也不同）
+无奈我的i3，过去8分钟才跑了这么点结果……
+![](Result.png)
